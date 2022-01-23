@@ -7,7 +7,6 @@ const ExpenseItem = ({ expenses }) => {
 
     return (
         <Card className='expense-item'>
-
             <ExpenseDate date={expenses.date} />
             <div className='expense-item__description'>
                 <h2>{expenses.title}</h2>
